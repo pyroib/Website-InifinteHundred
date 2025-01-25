@@ -1,0 +1,357 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #FFF;
+  background: url(/images/bgr.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  color: #e8f4ff;
+}
+
+h3, h4 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 1.2em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1.1em;
+  color: #FFF;
+}
+
+h4 {
+  font-size: 1em;
+  color: #FFF;
+}
+
+/************\
+    Theme
+\************/
+.content-section-blurb-2::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.content-section-blurb::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 10px;
+  background-color: #333;
+}
+
+.content-section-blurb::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
+
+#menu-personel,
+#menu-portfolio {
+  margin: 0 auto;
+  text-align: left;
+  padding: 0px;
+  list-style-type: none;
+}
+
+#menu-personel li,
+#menu-portfolio li {
+  display: inline-block;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  line-height: 0.9;
+  background-color: rgba(39, 39, 39, 0.4);
+  background-repeat: no-repeat;
+  background-image: url("/images/widgetbuttons.png");
+}
+
+#menu-personel li a,
+#menu-portfolio li a {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+#menu-portfolio .html5 {
+  background-position: -200px 0px;
+}
+
+#menu-portfolio .websites {
+  background-position: -300px -200px;
+}
+
+#menu-portfolio .mobile {
+  background-position: -300px 0px;
+}
+
+#menu-portfolio .facebookApp {
+  background-position: -100px -100px;
+}
+
+#menu-portfolio .photoshop {
+  background-position: 0px 0px;
+}
+
+#menu-portfolio .threeD {
+  background-position: 0px -330px;
+}
+
+#menu-portfolio .flash {
+  background-position: -200px -100px;
+}
+
+#menu-portfolio .qbasic {
+  background-position: -100px 0px;
+}
+
+#menu-personel .twitter {
+  background-position: -300px -105px;
+}
+
+#menu-personel .linkedin {
+  background-position: -100px -205px;
+}
+
+#menu-personel .facebook {
+  background-position: -100px -105px;
+}
+
+#menu-personel li:hover,
+#menu-portfolio li:hover {
+  background-color: rgba(39, 39, 39, 0.55);
+}
+
+.linkText {
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  text-shadow: 0 1px 1px #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.facebookApp .linkText {
+  height: 20px;
+}
+
+.doubleBox {
+  width: 235px !important;
+}
+
+.doubleBox .linkText {
+  width: 230px;
+}
+
+/************\
+    Theme
+\************/
+/************\
+    layout
+\************/
+#smoke-background {
+  z-index: 1000;
+}
+
+#circle-background {
+  z-index: 2000;
+}
+
+#content {
+  z-index: 3000;
+}
+
+#preloader {
+  z-index: 4000;
+}
+
+#smoke-background,
+#circle-background,
+#preloader,
+#page-header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  min-width: 320px;
+}
+
+#page-header {
+  padding: 0.6em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#circle-background {
+  height: 100vh;
+}
+
+#smoke-background {
+  height: 100vh;
+  display: table-row;
+}
+
+#page-footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100vw;
+  min-width: 320px;
+  padding: 0.6em;
+  font-size: 0.9em;
+  color: #fff;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+#content {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  min-width: 320px;
+  max-width: unset;
+  margin: 0px;
+  padding: 0px;
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+/************\
+    layout
+\************/
+/************\
+   content
+\************/
+.content-locator {
+  position: absolute;
+  width: 100%;
+  bottom: 3em;
+  left: 0px;
+  margin: 0px;
+}
+
+.content-section {
+  min-width: 320px;
+  max-width: 1000px;
+  margin: 0.4em auto 0;
+  padding: 0.8em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-right: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+.content-section-header h2 {
+  color: #FFF;
+}
+
+.content-section-header h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.content-section-blurb {
+  text-align: left;
+  padding: 0.5em 1em;
+  height: 60vh;
+  overflow-x: auto;
+  line-height: 2em;
+  display: none;
+}
+
+/************\
+   content
+\************/
+/************\
+  responsive
+\************/
+@media screen and (max-width: 800px) {
+  .content-section {
+    width: 96vw;
+  }
+}
+@media screen and (min-width: 800px) {
+  .content-section {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1.5em;
+  }
+
+  .content-locator {
+    height: 100vh;
+    bottom: 0;
+  }
+
+  .content-section-blurb {
+    height: 70vh;
+    width: 30vw;
+    overflow-x: auto;
+  }
+
+  .webdev-locator,
+.appdev-locator,
+.about-locator,
+.projects-locator {
+    overflow-x: auto;
+    position: absolute;
+  }
+
+  .webdev-locator,
+.appdev-locator {
+    top: 5vh;
+  }
+
+  .about-locator,
+.projects-locator {
+    bottom: 5vh;
+  }
+
+  .webdev-locator,
+.about-locator {
+    left: 5vw;
+    border-left: 4px solid rgba(255, 255, 255, 0.5);
+    border-right: 0px;
+  }
+
+  .appdev-locator,
+.projects-locator {
+    right: 5vw;
+  }
+}
+/************\
+  responsive
+\************/
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
