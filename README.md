@@ -1,6 +1,6 @@
-# Inifinite Hundred
+# Infinite Hundred
 
-Inifinite Hundred website
+Infinite Hundred website
 
 ## Getting Started
 
